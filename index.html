@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Paytm Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: '640px',
+                    md: '768px',
+                    lg: '1200px',
+                    xl: '1280px'
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        grayshade:'#f6f6f6'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="shadow-[0_5px_20px_rgba(0,41,112,0.1)]">
+        <div class="flex justify-between items-center mx-16 h-20 ">
+            <div>
+                <img class="h-14 inline" src="paytm_logo.png" alt="">
+            </div>
+            <div>
+                <ul class="hidden lg:flex text-[17px] font-semibold">
+                    <li class="mr-8 ">Paytm for Consumer</li>
+                    <li class="mr-8">Paytm for Business</li>
+                    <li class="mr-8">Company</li>
+                    <li class="mr-8">Investor Relations</li>
+                    <li>Career</li>
+                </ul>
+            </div>
+            <div>
+                <div class="flex bg-sky-400 items-center justify-end rounded-[1.5rem] w-28">
+                    <span class="mr-2 text-white font-semibold text-[15px]">Sign In</span>
+                    <img class="h-9 inline" src="signimg.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="font-medium	 flex justify-center bg-grayshade h-12 items-center text-[15px]	">
+            <span class=" pr-0.5 font-semibold text-base">No Wallet KYC Required</span>
+            <span class="pr-0.5 text-2xl mb-0.5">😊</span>
+            to pay using UPI on Paytm.
+            <span class="font-semibold text-base pl-0.5">Learn more.</span>
+        </div>
+        <div class="flex pt-32 pb-32 mx-1">
+            <div class="flex-[1.5_1.5_0%] flex flex-col justify-center">
+                <div class="mb-12">
+                    <img class="h-20" src="paytmupimg.png">
+                </div>
+                <div>
+                    <h1 class="text-[54px] font-bold leading-[3.7rem] mb-2.5">
+                        <span class="block"> India's Most-loved</span>
+                       
+                        Payments App
+                    </h1>
+                    <p class="text-xl font-medium mb-10">
+                        <span class="block">Recharge & pay bills, book flights & movie tickets,</span>
+                        <span class="block"> open a savings account,invest in stocks & mutual</span>
+                       
+                        funds, and do a lot more.
+                    </p>
+                </div>
+                <div>
+                    <button class="h-11 bg-black text-white	px-6 rounded-3xl">
+                        Download Paytm App <span><i class="fab fa-apple" style="font-size:20px"></i></span>
+                        <span><i class="fab fa-google-play"></i></span>
+                    </button>
+                </div>
+            </div>
+            <div class="flex-1">
+                <img src="phone.webp" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
